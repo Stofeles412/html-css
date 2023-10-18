@@ -1,0 +1,25 @@
+
+body{ background-color: rgb(180, 180, 180);
+font-family: Arial, Helvetica, sans-serif; 
+}
+h1{
+color: blue;
+}
+h2{
+color: blueviolet;
+}
+h1#principal{
+text-align: center; color: rgb(230, 17, 230); font-size: 50px; text-shadow: 1px 1px 1px rgb(127, 134, 121);
+}
+.intermediario{
+color: rgb(4, 69, 107);
+}
+.mudar{ color: rgb(210, 30, 198);
+
+}
+.anime{
+color: rgb(2, 6, 51); font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.para{
+color: rgb(8, 119, 119); font-size: 30px;
+}

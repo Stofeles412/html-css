@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body style="background-color: aqua;">
+<h1>
+Imagens dinâmicas
+</h1>
+<h3>Tente abrir este sites em varios dispositivos diferentes, ou simplesmente diminua o tamanho do seu navegador</p
+    h3>
+<picture>
+<source media="(max-width: 700px)" srcset="imagens/pequena.png" type="image/png">
+<source media="(max-width: 1050px)" srcset="imagens/media.png">
+<img src="imagens/grande.png" alt="imagem flexível">
+</picture>
+<h4>
+ATENÇÃO: Lembrando q devo usar a tag picture e dentro dela criar a tag img com a imgaem maior, depois dentro da tag picture, crio a ta source media como a resoluçao max de 1050px na imgaem de tamanho medio.
+E depois a Tag source media-typer com a resolução max de 750px, para a imagem pequena.
+este e o padrão usado para botar imagens dinamicas no site, q se adapta a displays de diferentes tamanhos.
+</h4>
+<h3>Lembrando q tem 3 formas de audio elas mp3 wav ogg, lembrando q os audios formato wav não é recomendado por se muito pesado, e com a tag audio q eu adiciono meu audios, e com o paramentro controls dentro da tag audio, eu adiciono o play dele no site, e outro parametros como loop para o audio reiniciar ao terminar, preload para ele carregar apenas uma parte ao abrir o site.</p>
+</h3>
+
+<h1>repruduzindo audios</h1>
+<p>vamos aprender a adicionar audio em HTML5 no site</p>
+<audio preload="metadata" src="midia/les ly.mp3" controls autoplay loop></audio>
+<audio>

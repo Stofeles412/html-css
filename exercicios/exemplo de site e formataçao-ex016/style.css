@@ -1,0 +1,22 @@
+
+
+body{  height: 100%;
+background-color: rgb(232, 157, 157);
+}h1{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-shadow: 1px 1px 0px rgb(110, 101, 87);
+color: rgb(228, 187, 39); text-align: center; color: rgb(132, 106, 167)87, 123, 100);
+}
+h2{  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  text-align: justify; text-align: center; color: rgb(121, 42, 239); text-shadow: 1px 1px 0px rgb(112, 105, 105);
+}
+h4{
+}
+div{background-color: rgb(112, 104, 104);
+border-radius: 10px;
+box-shadow: 10px 10px 10px rgb(250, 171, 171);
+background-color: rgb(254, 250, 250);
+width: 600px;
+padding: 10px;
+margin: auto;
+}
+p{
+text-align: justify; text-align: center;
+}
