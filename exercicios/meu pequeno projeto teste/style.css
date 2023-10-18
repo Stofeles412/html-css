@@ -1,3 +1,6 @@
+*{
+width: 100%;
+}
 
 body{ background-color: rgb(249, 239, 225);
 }
@@ -6,6 +9,10 @@ h1{ color: rgb(253, 215, 0); text-align: center; : 2px 2px 2px black;
 }
 h2{text-align: center; color: gold; text-shadow: 1px 1px 1px black; font-size: 40px;}
 #unico{ font-size: 3em;
+    
+}
+h2{
+    background-image: linear-gradient(to right, rgb(86, 114, 207), rgba(254, 252, 252, 0));
 }
 p{
 font-size: larger;
