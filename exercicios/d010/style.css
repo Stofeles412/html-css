@@ -3,6 +3,8 @@
     font-family: "android";
     src: url("..fontes/android.otf");
     font-weight: normal;
+}*{
+    padding: 10px;
 }
 body{ font-family: var(--fonte-padrao);
     min-width: 300px;
@@ -61,6 +63,7 @@ header > p{
 nav{
 background-color: var(--cor05);
 padding: 10px;
+margin-top: -1%;
 }
 main{ 
 background-color: white; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.457);
