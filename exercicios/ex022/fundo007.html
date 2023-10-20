@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>*{
+    color: rgb(29, 29, 216);
+    }
+        #containe { background-color: aqua;
+            
+            height: 96vh;
+            position: relative;
+            background-size: 100% 100%;
+            
+        
+        }
+        #conteudo { background-color: blue;
+            width: 400px;
+            height: 200px;
+            position: absolute;
+           left: 50%;
+           top: 50%;
+           transform: translate(-50%, -50%);
+           
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo centralizado verticalmente.</title>
+</head>
+<body> <section id="containe">
+    <article id="conteudo">
+
+    </article>
+</section>
+    <main>
+        <h1>Informaçoes importantes sobre centralizamento de box na vertical.</h1>
+        <h2>Primeiramente, devo criar duas divs podendo ser elas, section, e article, e na primeira irei criar um id, containe, e na outra, id conteudo, para assim trabalhar com elas no css.</h2>
+        <h2>Dai crio position relative no containe, e position relative, no conteudo, nunca deve esquecer o height 96vh, para assim nn ter problemas na centralização, dai com essas position, posso usar-las para crirar um left, e top, para em px ou %, regular a minha caixa, para para o centro, de forma vertical.</h2>
+        <h2>OBS: também tenho que usar, a transform tranlate, para assim, em %- reguglando a minha box para o centro.</h2>
+    </main>
+</body>
+</html>
