@@ -1,18 +1,17 @@
 @charset "UTF-8";
-
- 
-
-
-
+:root{
+--cor1: red;
+--cor2: blue;
+}
 body{
-background-color: var(--cor1);
+
 }
 div{
 border: 600px;
 padding: 20px;
 margin: auto;
 border-radius: 10px;
-background-color: aqua;
+background-color:var(--cor2) ;
 }
 h1{ text-align: center;
 color:  rgb(7, 62, 25);
