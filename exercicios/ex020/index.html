@@ -2,9 +2,13 @@
 <html lang="pt-br">
 <head>
     <style> 
+    :root{
+    --cor1:rgb(22, 14, 72);
+    --cor2: rgb(57, 189, 189);
+    }
         
         header{
-            background-color: aqua;
+           background-color: var(--cor2);
             text-align: center;
             font-weight: bold;
             height: 50px;
@@ -15,6 +19,21 @@
          ul li{ list-style: none;
             font-size: 20px;
             text-decoration-style: none ;
+            text-align: left;
+            
+         }
+         nav{
+           background-color: var(--cor1);
+         }
+         a{
+            font-weight: bold;
+            text-decoration: none;
+        color: chocolate;
+        font-size: 25px;
+        line-height: 35px;
+         }
+         a:hover{
+            background-color: chartreuse;
          }
     </style>
     <meta charset="UTF-8">
@@ -22,15 +41,18 @@
     <title>Variaveis</title>
 </head>
 <header>
-    <h1>Menu</h1>
-    <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">CONTATO</a></li>
-        <li><a href="#">QUEM SOMOS ?</a></li>
-    </ul>
-
+    <h1>☰  Menu</h1>
+    <nav>
+        <ul>
+            <li><a href="#">⌂ HOME</a></li>
+            <li><a href="#">☏ CONTATO</a></li>
+            <li><a href="#">℻ QUEM SOMOS ?</a></li>
+        </ul>
+    </nav>
+   
 </header>
 <main>
+   
 
 </main>
 <article>
