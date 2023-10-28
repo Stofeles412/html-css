@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+        body{
+            text-transform: capitalize;
+        }
+        th, tr td{
+            border: solid 1px black;
+           
+        }
+        table{
+            width: 500px;
+            height: 250px;
+            border-collapse: collapse;
+        }
+        col.cnome{
+            background-color: rgb(227, 206, 159);
+        }
+        .csexo{
+            background-color: antiquewhite;
+        }
+        .idade{
+            background-color: rgb(243, 204, 180);
+        }
+        .prof{
+            background-color: antiquewhite;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+</head>
+
+<caption>Cadastro</caption>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="idade">
+            <col class="prof">
+        </colgroup>
+        <tr>
+        <th scope="col">nome</th>
+        <th scope="col">sexo</th>
+        <th scope="col">idade</th>
+        <th scope="col">profissão</th>
+        </tr scope="col">
+        <tr>
+            <td>ana maria</td>
+            <td>f</td>
+            <td>25</td>
+            <td>jornalista</td>
+        </tr>
+        <tr>
+            <td>claudio</td>
+            <td>m</td>
+            <td>28</td>
+            <td>programador</td>
+        </tr>
+        <tr>
+            <td>gustavo</td>
+            <td>m</td>
+            <td>42</td>
+            <td>professor</td>
+        </tr>
+        <tr>
+            <td>helio</td>
+            <td>m</td>
+            <td>19</td>
+            <td>vendedor</td>
+        </tr>
+        <tr>
+            <td>maria</td>
+            <td>f</td>
+            <td>39</td>
+            <td>medica</td>
+        </tr>
+        <tr>
+            <td>ótavio</td>
+            <td>m</td>
+            <td>22</td>
+            <td>nutricionista</td>
+        </tr>
+    </table>
+    
+</body>
+<main>
+    <h1>Informaçoes importantes, sobre a pernalizaçoes das tabelas.</h1>
+    <h2>Caso eu queira, alterar as configuraçoes da tabela, como a cor de fundo por exemplo.</h2>
+    <h2>devo criar a nova tag, colgroup na aréa de dentro da minha tabela, ai sim botando as class dentro das tags col q irei fazer dentro da colgroup.</h2>
+    <h2>Observação muito importante, antes disso, ja devo estar com meus th, da tabela, todos com o scope "col" neles.</h2>
+</main>
+</html>
