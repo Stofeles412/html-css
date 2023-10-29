@@ -11,11 +11,28 @@
             height: 400px;
             border-collapse: collapse;
             background-color: rgb(250, 240, 226);
+            color: rgb(255, 255, 255);
         }
         th, td{
             border: solid 1px black;
            
         }
+        .grupo{ background-color: #797979
+
+        }
+        .nome{ background-color: #5c5c5c;
+
+        }
+        .filme{ background-color: #6b6b6b;
+
+        }
+        .total{
+            background-color: #5c5c5c;
+        }
+        .mil{
+            background-color: #4e4e4e;
+        }
+        
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,11 +45,19 @@
     <table>
         
         <thead>
+            
+            <colgroup>
+                <col class="grupo">
+                <col class="nome">
+                <col class="filme">
+                <col class="total">
+                <col class="mil">
+            </colgroup>
             <caption>Filmes favoritos</caption>
             <tfoot>
                 <tr>
-                    <th colspan="4">Total</th>
-                    <th scope="row">1000</th>
+                    <th colspan="4" scope="col">Total</th>
+                    <th scope="col">1000</th>
                 </tr>
             </tfoot>
             <tr>
