@@ -29,18 +29,34 @@
     th{
         padding: 10px;
     }
+    .pos{
+        background-color: #605b48;
+    }
+    .estimativa{
+        background-color: #514c3a;
+    }
+    .data{
+        background-color: #514c3a ;
+    }
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha tabela</title>
 </head>
-<body>   
+<body>
+   
     <table>
+        <colgroup>
+            <col class="pos">
+            <col class="estimativa">
+            <col class="data">
+        </colgroup>   
+        <caption>populaçao mundial</caption>
         <thead>
             <tr> 
                 
-                 <th scope="col">Posição</th>
-                 <th scope="col">Estimativa da Onu</th>
+                 <th scope="col" class="pos">Posição</th>
+                 <th scope="col" class="estimativa">Estimativa da Onu</th>
                  <th scope="col">Data</th> 
                 
                 
