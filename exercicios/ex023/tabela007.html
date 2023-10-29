@@ -4,17 +4,24 @@
     <style>
         th, td{
             border: solid 1px black;
+            background-color: rgb(177, 238, 238);
         }
         table{
             border-collapse: collapse;
             width: 600px;
-            height: 200px;
+            height: 250px;
         }
         div#containe{
             overflow-x: auto;
         }
-        body{
+        body{ text-transform: capitalize;
           
+        }
+        .produto{
+            background-color: blanchedalmond;
+        }
+        .meses{
+            background-color: bisque;
         }
     </style>
     <meta charset="UTF-8">
@@ -29,11 +36,16 @@
 
     <div id="containe">
         <table>
+            <colgroup>
+                <col class="produto">
+                <col class="mes">
+                <col class="meses">
+            </colgroup>
             <thead>
                 <tr>
-                    <th>Produtos vendidos</th>
-                    <th>jan</th>
-                    <th>fev</th>
+                    <th scope="col">Produtos vendidos</th>
+                    <th scope="col">jan</th>
+                    <th scope="col">fev</th>
                     <th>mar</th>
                     <th>abr</th>
                     <th>mai</th>
@@ -155,6 +167,7 @@
             </tbody>
         </table>
     </div>
+    
     
 </body>
 </html>
