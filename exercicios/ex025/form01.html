@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    form{
+       
+    }
+    input{
+        background-color: rgb(164, 180, 180);
+        border-radius: 20px;
+        width: 200px;
+        height: 20px;
+        text-transform: uppercase;
+    }
+</style>
+<body>
+    <h1>meu primeiro formulario</h1>
+    <form action="cadastro.php" method="POST">
+        <p><label for="inome">Nome: </label><input typy="text" autocomplete="off" name="nome" id="inome"></p>
+
+        
+        <p><label for="isobrenome">Sobrenome:</label> <input type="text" autocomplete="off" name="sobrenome" id="isobrenome"> </p>
+
+        <p><input type="password"></p>
+
+        <p><input type="submit" value="enviar"></p>
+    </form>
+    <h2>Informaçoes importantes</h2>
+    <p>Devo action, com um codigo de programação para eviar para algum lugar, como cadastro.php ou cadastro.js, e depois trabalhar na lingualgem de programação</p>
+    <h2>devo sempre criar um label, com um name, ou id, qu se enconta, no meu input.</h2>
+    <p>input typer text, é para criar a barra do formulario, para clicar. e input submit, para criar um butão de enviar.</p>
+    <h2>'segurança' do formulario</h2>
+    de padrão o method GET mostra, os dados visiveis do formulario, na url.
+
+    <h2>E o method post, para ocultar, os dados do formularios. <br>
+    Obs: lembrando que o post, não é verdadeiramente mais seguro que o get, pra ter mais segurança de verdade, devo estudar um pouco sobre capytografia, e htpps.</h2>
+
+    
+</body>
+</html>
