@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    header{
+        background-color: rgb(69, 69, 69);
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
+       
+    }
+    input{
+        padding: 5px;
+        margin: 15px;
+        margin-bottom: 20px;
+        text-align: center;
+        border-radius: 1000px;
+        background-color: burlywood;
+        color: rgb(150, 104, 5);
+    }
+    form{
+        text-align: center;
+        color: rgb(134, 107, 52);
+      
+    }
+</style>
+
+<body>
+  
+        <header>
+            <form action="cadastro.php" method="post" autocomplete="off">
+            <div>Nome:<input type="text" name="name" id="iname" placeholder="Nome..." size="90"></div>
+            <div>Contato:<input type="text"  placeholder="contato..." maxlength="10" minlength="20" size="80"></div>
+            <div>Senha:<input type="password" placeholder="Senha..." size="75"></div>
+            <div><input type="submit" name="name" id="Entar" value="Enviar" size="20"></div>
+            <div><lebel><input type="submit" value="limpar"></lebel></div>
+            </form>
+        </header>
+ 
+</body>
+</html>

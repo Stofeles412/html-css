@@ -16,6 +16,8 @@
     input{
         box-shadow: 2px 2px rgba(0, 0, 0, 0.438);
         border-radius: 10px;
+        background-color: rgb(202, 110, 110);
+       
     }
     body{
         background-color: rgb(252, 234, 212);
@@ -24,11 +26,11 @@
 <body>
     <form action="cadastro.php" method="post">
    <label for="iuso">Usuario:</label>
-    <input type="text" name="uso" id="iuso" required minlength="5" maxlength="10" placeholder="nome de usuario">
+    <input type="text" name="uso" id="iuso" required minlength="5" maxlength="10" placeholder="nome de usuario" size="40">
 
     <p>
         <label for="isen">Senha:</label>
-        <input type="password" name="sen" id="isen" required minlength="8" size="30" placeholder="senha"  >
+        <input type="password" name="sen" id="isen" required minlength="8" size="40" placeholder="senha"  >
     </p>
     <p>
         <input type="submit" value="enviar">
