@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+        form{
+            text-transform: uppercase;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="on" name="favoritos" id="ifavoritos">
+<label for="ifavoritos"></label>
+<fieldset>
+    <legend>sexo</legend>
+    <input type="radio" name="sexo" id="isexmas"> <label for="isexmas">masculino</label> <br>
+    <input type="radio" name="sexo" id="isexo"> <label for="isexo">Feminino</label>
+</fieldset>
+<fieldset>
+    <legend>Games favoritos</legend>
+    <input type="checkbox" name="gta" id="igta"><label for="igta">GTA</label> <br>
+
+    <input type="checkbox" name="god" id="igod"> <label for="igod">GOD</label><br>
+
+    <input type="checkbox" name="shadow" id="ishadow"> <label for="ishadow">Shadow of colosus</label><br>
+
+    <input type="checkbox" name="lol" id="ilol"> <label for="ilol">lol</label>
+
+</fieldset>
+<p>
+    <input type="submit" value="enviar">
+    <input type="reset" value="apagar">
+</p>
+
+
+
+
+    </form>
+    <h1>Quando eu for fazer um radio box, devo dar o mesmo name, para as caixas, para assim ela ter a fucionolidade igual.</h1>
+    <h2>Também posso dar um checked, no meu checked box, para poder deixar o input que botei ele, já marcado de inicio.</h2>
+    
+</body>
+</html>
