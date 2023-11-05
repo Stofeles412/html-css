@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+        
+            <form action="cadastro.php" method="get">
+                <label for="iest">Estado</label>
+                <select name="Estado" id="iest">
+
+                    <optgroup label="sudeste">
+                        <option value="RJ" id="iest">Rio de janeiro</option>
+                        <option value="SP">são paulo</option>
+                        <option value="MG">minas gerais</option>
+                    </optgroup>
+                    <optgroup label="SUL">
+                        <option value="PR">parana</option>
+                        <option value="SC">Santa catarina</option>
+                        <option value="RS">Rio grande do sul</option>
+                        
+                    </optgroup>
+                   
+                
+                
+                </select>
+             
+            
+            </form>
+        </p>
+      <p>
+        <label for="iprof">profisão</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+           <datalist id="lstprof">
+           
+                <option value="dev">desenvolvedor</option>
+                <option value="prof">professor</option>
+            
+            <option value="med">medico</option>
+            <option value="arq">arquiteto</option>
+            <option value="eng">emgenheiro</option>
+            <option value="fis">fisico</option>
+           </datalist>
+       
+      </p>
+      <label for="msg">menssagem</label>
+     <textarea name="msg" id="imsg" cols="20" rows="10" placeholder="digite aqui sua menssagem..."></textarea>
+    
+        <div>
+            <input type="submit" value="enviar">
+            <input type="reset" value="apagar">
+        </div>
+        <h1>anotaçoes do caderno...</h1>
+        
+       
+        <h2>Elemtos fora da tag input.</h2>
+        <p>Com a tag option eu posso criar uma lista, para selecionar, estados por exemplo, como fiz a cima.</p>
+        <p>e com uma tag, optgroup, posso selecionar as classes desta lista selecionavel.</p>
+
+        <h2>outro tipo de lista selecionavél</h2>
+        <p>Com a tag, inut text, posso criar uma tag datalist, e dentro dela, fazer option, para criar uma lista selecionavel, com barra de pesquisa</p>
+        <p>Lembrando que devo criar um id, na caixar datalist, e fazer o list, na caixar da tag input tex, dai uso esse id, da caixar datalist.</p>
+        
+        
+        <h2>Area pra digitar mensagem</h2>
+        <p>Para eu criar uma area digitavél de msg, devo criar uma tag texarea, e nela configuar alguns valores como id, name, e tamnho de colunas e linhas, e quantidades de letras visiveis.</p>
+        
+    
+</body>
+</html>
