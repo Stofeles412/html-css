@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        ::placeholder{
+           color: blue;
+         
+        }
+        textarea{
+            background-color: rgb(249, 236, 217);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tudo que aprendi de form</title>
+</head>
+<body>
+    <h1>Aqui estou usando tudo que aprendi sobre formularios.</h1>
+    <form action="cadastro.php">
+        <p>
+          <label for="isea">peqsuise aqui</label>
+          <input type="search" id="isea" placeholder="pesquise..." maxlength="10">
+           
+           
+        </p>
+        <p>
+            <label for="iemail">e-mail:</label>
+            <input type="email" id="iemail" placeholder="e-mail.." required min="5" max="10">
+        </p>
+        <p>
+            <label for="isenha">Digite sua senha:</label>
+            <input type="password" id="isenha" placeholder="senha..." maxlength="10">
+        </p>
+        <p>
+            <label for="ichek"> checkbox </label>
+          <input type="checkbox" id="ichek">
+        
+           
+        </p>
+      
+        <p>
+            <label for="iradio">Radio</label>
+            <input type="radio" id="iradio">
+
+           <label for="ivar">Variaçoes</label>
+           <input type="radio" id="ivar">
+            
+        </p>
+        <label for="isas">range:</label>
+        <input type="range" min="1" max="10" value="5">
+        
+     
+        <p>
+            <label for="idata">data:</label>
+            <input type="date" id="idata">
+        </p>
+        <p>
+            <label for="itime">Time:</label>
+            <input type="time" id="itime">
+        </p>
+        <p>
+            <label for="imonth">month-mes-ano</label>
+            <input type="month" id="imonth">
+        </p>
+        <p>
+            <label for="itel">tel-telefone</label>
+            <input type="tel" id="itel">
+        </p>
+        <p>
+            <label for="iweke">semana</label>
+            <input type="week" id="iweke">
+        </p>
+        <p>
+            <label for="idtime">date-time, data e hora</label>
+            <input type="datetime-local" id="idtime">
+        </p>
+        <p>
+            <label for="icor">cor</label>
+            <input type="color" id="icor">
+        </p>
+        <p>
+            <label for="ifile">arquivo</label>
+            <input type="file" id="ifile">
+        </p>
+        <p>
+            <label for="img">envio de imagens</label>
+            <input type="image" id="img" required>
+        </p>
+        <p>
+            <label for=""></label>
+            <input type="teex">
+        </p>
+        <p>
+            <textarea name="area" id="iarea" cols="30" rows="10" placeholder="digite sua msg aqui..."></textarea>
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="apagar">
+        </p>
+
+
+
+    </form>
+    <h2>Enfim são muitos conteudos para criar formularios, lembrando que a maioria deles estão na tag input.</h2>
+    <p>so no caso da texarea que usei para digitar uma mensagem, que é uma tag, do mesmo nome.</p>
+
+    <h2>tamém tem muitas variaçoes de configurações.</h2>
+   
+    <ul>
+        <li>Como required, para tornar uma capo de preenchimento obrigatorio.</li> <br>
+
+        <li>min e max, para definir uma quantidade, selecionavel</li> <br>
+
+        <li>maxlength, para definir uma quantidade maxima, de digitos ou letras q podem ser digitada pelo usuario</li> <br>
+
+        <li>placeholder, para criar, uma mensagem de informção, dentro do conteudo</li>
+
+
+
+
+    </ul>
+  
+    
+</body>
+</html>
