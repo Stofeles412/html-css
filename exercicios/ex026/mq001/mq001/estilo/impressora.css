@@ -25,3 +25,6 @@ article, p{
 h1{
     color: brown;
 }
+footer, a{
+    display: none;
+}

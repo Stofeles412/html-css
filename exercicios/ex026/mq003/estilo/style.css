@@ -1,0 +1,86 @@
+@charset "UTF-8";
+  /*declaroçoes gerais*/
+  @media  all {
+    
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ html, body{ width: 100vw;
+    height: 100vh;
+   background-color: #2222ff;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../imagens/cev-landscape.jpg');
+ 
+}
+h1{
+    color: rgb(244, 244, 250);
+}h2{
+    color: red;
+    margin: 20px;
+}
+
+ html, body{ width: 100vw;
+    height: 100vh;
+   background-color: #2222ff;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../imagens/cev-landscape.jpg');
+    color: rgb(253, 190, 0);
+    font-weight: bold;
+    padding: 10px;
+ 
+}
+h1{
+    color: rgb(244, 244, 250);
+}
+
+
+
+
+        /*declaroçoes retrato*/
+        @media screen and (orientation: portrait) {
+
+        }
+
+        *{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url('../imagens/cev-portrait.jpg');
+}
+h1{
+   
+}
+
+body{
+    background-image: url('../imagens/cev-portrait.jpg');
+}
+h1{
+   
+}
+      
+
+        /*declataçoes paisagem*/
+     @media screen and (orientation: landscape){
+
+     }
+     body{
+    background-image: url('../imagens/cev-landscape.jpg');
+    background-size: contain;
+    background-position: center bottom;
+  
+}
+h1{
+    
+}
+
+   
+    
+
+
