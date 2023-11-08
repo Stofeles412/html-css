@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@media print{  
+
+}
+body{
+    font-family: monospace;
+}
+@media screen and (min-width: 567px) and (max-width: 700px) {}
+body{
+    background-color: rgba(0, 0, 0, 0.224);
+}
