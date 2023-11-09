@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="stylesheet" href=".js">
+
     <link rel="stylesheet" href="style.css">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>menu responsivo</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"> 
+    
+
 </head>
+
 <body>
     <header>
+   
        
         <h1>Meu principal</h1>
-       <img src="menu-aberto.png" alt="menu" width="20px" class="hanb" onchange="clickMenu()">
-        <menu id="intens">
+
+        <label class="material-icons md-36" id="simbolomenu" onclick="clickMenu()">menu</label>
+            
+       
+        <menu id="itens">
+
             <ul>
                 <li><a href="#">games</a></li>
                 <li><a href="#">Noticías</a></li>
@@ -32,11 +46,21 @@
         </article>
     </main>
     <script>
-        functicon, clickMenu(){
-            intens.style.display= 'block'
-
-        }
+        function clickMenu (){
+    itens.style.display = 'block'
+    
+}
     </script>
+    
+    
+        
+        
+
+        
+
+
+
+       
     
 </body>
 </html>
