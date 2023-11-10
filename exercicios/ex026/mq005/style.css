@@ -21,7 +21,6 @@ header a{
 
 }
 a:hover{
-    background-color: rgba(141, 64, 9, 0.45);
     text-decoration: underline;
 }
 header h1{
