@@ -8,4 +8,29 @@
 }body{
     background-image: url(../imagens/back-tablet.jpg);
     display: block;
+
+    
 }
+main img{
+    margin: auto;
+    display: block;
+}
+img#phone{
+    display: none;
+}
+img#pc{
+    display: none;
+}
+img#tablet{
+    display: block;
+}
+img#print{
+    display: none;
+}
+img#tv{
+    display: none;
+}
+    
+
+
+

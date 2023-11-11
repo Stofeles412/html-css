@@ -7,11 +7,14 @@
 }
 menu{
    display: block;
+   
     
 }
 menu li{
     display: inline-block;
+    margin-left: 30px;
 }
+
 
 
 
