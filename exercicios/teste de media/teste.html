@@ -10,10 +10,10 @@
 <body>
     <header>
         <h1>Menu principal</h1>
-        <input type="button" value="abrir" onclick="open()" id="abrir-menu">
-        <menu>
+        <input type="button" value="abrir" onclick="openMenu()" id="abrir-menu">
+        <menu id="itens">
           
-            <ul id="itens">
+            <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">games</a></li>
                 <li><a href="#">contato</a></li>
@@ -44,7 +44,7 @@
         </ul>
     </footer>
     <script>
-        function open(){
+        function openMenu(){
             var abrir = window.document.getElementById('abrir-menu')
             var menu = window.document.getElementById('itens')
             menu.abrir.style.display = 'block'
