@@ -2,13 +2,14 @@
 <html lang="pt-br">
 <head>
     <style>
-        h1{
-            color: rgb(174, 255, 0);
+        header h1{
+            color: rgb(249, 248, 247);
         }
                     
         menu{
-            background-color: rgb(56, 53, 125);
+            background-color: rgb(65, 65, 95);
             text-align: center;
+            border-radius: 30px;
             
         }
         #menu-itens{
@@ -22,7 +23,21 @@
             font-weight: bold;
         }
         li a:hover{
-            color: rgb(174, 255, 0); ;
+            color: rgb(30, 38, 13);
+            text-decoration: underline; 
+        }
+        #botao-menu{
+            width: 40px;
+            background-color: rgba(220, 162, 121, 0.642);
+        }
+        #botao-menu:hover{
+            background-color: rgb(138, 104, 59);
+            cursor: pointer;
+
+        }
+        ul{
+            text-decoration: none;
+            list-style-type: none;
         }
     </style>
     <meta charset="UTF-8">
@@ -34,7 +49,7 @@
      
         <menu>
             <h1>logo</h1>
-            <input type="button" value="abrir" onclick="openMenu()" id="botao-menu">
+            <input type="button" value="☰" onclick="openMenu()" id="botao-menu">
     
             <ul id="menu-itens">
                 <li><a href="#">home</a></li>
@@ -45,11 +60,19 @@
 
         </menu>
     </header>
+    <main>
+        <h1>o titulo principal</h1>
+        <h2>estudando</h2>
+    </main>
     <script>
         function openMenu(){
             var menu = window.document.getElementById('menu-itens')
             var abrir = window.document.getElementById('bota-menu')
+           if (menu.style.display = 'block'){
             menu.style.display = 'block'
+           }else{
+            menu.style.display = 'block'
+           }
         }
 
         
