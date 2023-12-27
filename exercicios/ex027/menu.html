@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+         
+        }
+
+        header{
+            text-align: center ;
+            color: aliceblue;
+           
+        }
+
+
+
+        menu{
+            background-color: rgb(11, 53, 66);
+            text-align: center;
+            font-size: 1.3em;
+        }
+        h1{
+          
+            border-radius: 20px;
+        }
+
+        ul li a{
+            text-decoration: none;
+            list-style-type: none;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            display: inline;
+          
+        }
+
+        #itens{
+            display: none;
+           
+            
+        }
+        li a:hover{
+            background-color: rgba(154, 139, 6, 0.354);
+        }
+        #sub-menu{
+           background-color:  rgb(56, 141, 187);
+           padding: 5px;
+           height: 200px;
+           box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.307);
+        }
+         #conteudo{
+           border: solid 1px black;
+           padding: 5px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu</title>
+</head>
+<body>
+    <header>
+        <menu>
+            <h1>menu</h1>
+
+            <input type="button" value="abrir" onclick="openMenu()" id="abrir-menu">
+            <ul id="itens">
+
+            <li><a href="#">home</a></li>
+            <li><a href="#">contato</a></li>
+            <li><a href="#">paginas</a></li>
+            <li><a href="#">sobre</a></li>
+            </ul>
+        </menu>
+    </header>
+    <div id="sub-menu">
+        <h1>um lindo site</h1>
+        <h2>aqui vai uma pequena div, com um conteu, logo a abaixo do menu.</h2>
+    </div>
+    <div id="conteudo">
+        <h1>aqui vai todo conteudo</h1>
+        <h2>cap 1</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, tenetur. Quasi porro cumque eum deserunt officia ut facere, modi, repellat ducimus laborum vitae! Dolorem dolorum illum dolore, fugiat debitis impedit.</p>
+        <h1>aqui vai todo conteudo</h1>
+        <h2>cap 1</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, tenetur. Quasi porro cumque eum deserunt officia ut facere, modi, repellat ducimus laborum vitae! Dolorem dolorum illum dolore, fugiat debitis impedit.</p>  <h1>aqui vai todo conteudo</h1>
+        <h2>cap 1</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, tenetur. Quasi porro cumque eum deserunt officia ut facere, modi, repellat ducimus laborum vitae! Dolorem dolorum illum dolore, fugiat debitis impedit.</p>
+        <h1>aqui vai todo conteudo</h1>
+        <h2>cap 1</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, tenetur. Quasi porro cumque eum deserunt officia ut facere, modi, repellat ducimus laborum vitae! Dolorem dolorum illum dolore, fugiat debitis impedit.</p>  <h1>aqui vai todo conteudo</h1>
+        <h2>cap 1</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, tenetur. Quasi porro cumque eum deserunt officia ut facere, modi, repellat ducimus laborum vitae! Dolorem dolorum illum dolore, fugiat debitis impedit.</p>  <h1>aqui vai todo conteudo</h1>
+        <h2>cap 1</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, tenetur. Quasi porro cumque eum deserunt officia ut facere, modi, repellat ducimus laborum vitae! Dolorem dolorum illum dolore, fugiat debitis impedit.</p>  <h1>aqui vai todo conteudo</h1>
+        <h2>cap 1</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, tenetur. Quasi porro cumque eum deserunt officia ut facere, modi, repellat ducimus laborum vitae! Dolorem dolorum illum dolore, fugiat debitis impedit.</p>  <h1>aqui vai todo conteudo</h1>
+        <h2>cap 1</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, tenetur. Quasi porro cumque eum deserunt officia ut facere, modi, repellat ducimus laborum vitae! Dolorem dolorum illum dolore, fugiat debitis impedit.</p>
+    </div>
+    <script>
+        function openMenu(){
+            var abrir = window.document.getElementById('abrir-menu')
+            var abrir = window.document.getElementById('itens')
+             
+         if(abrir.style.display == 'block'){
+            abrir.style.display = 'none'
+            
+      }else{
+        abrir.style.display = 'block'
+      
+      }
+            
+
+            
+        }
+    </script>
+    
+</body>
+</html>
