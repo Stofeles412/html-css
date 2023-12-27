@@ -47,6 +47,13 @@
          
            
         }
+        #aba-menu{
+            width: 30px;
+            cursor: pointer;
+          
+        }
+
+
         #itens li{
             border: solid 1px black;
             background-color: rgb(104, 100, 100);
@@ -82,7 +89,11 @@
         <h1>menu</h1>
      
         <menu>
-            <input type="button" value="abrir" onclick="openMenu()" id="aba-menu">
+            
+                 <img src="menu.png" alt="menu-icon"  input type="button" value="abrir" 
+                             onclick="openMenu()" id="aba-menu">
+             
+          
             <ul id="itens">
                 <li><a href="#">home</a></li>
                 <li><a href="#">contato</a></li>
@@ -137,6 +148,7 @@
         var menu = window.document.getElementById('itens')
         if(menu.style.display == 'block'){
             menu.style.display = 'none'
+           
            
            
         
