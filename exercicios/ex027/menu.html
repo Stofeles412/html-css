@@ -41,14 +41,18 @@
            
             
         }
+        
+            
+        
+
+
         li a:hover{
-            background-color: rgba(154, 139, 6, 0.354);
+            background-color: rgba(42, 60, 178, 0.631);
         }
         #sub-menu{
-           background-color:  rgb(56, 141, 187);
-           padding: 5px;
-           height: 100px;
-           box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.307);
+         margin: 30px;
+
+          
         }
         #abrir-menu{
             width: 30px;
@@ -60,8 +64,36 @@
 
 
          #conteudo{
-           border: solid 1px black;
+           border: solid 1px rgba(0, 0, 0, 0.167);
            padding: 25px;
+        }
+        .ul-li{ margin: 10px;
+         
+           
+        }
+        
+            
+        
+
+
+
+        @media screen and (min-width: 900px){
+            #abrir-menu{
+               display: none;
+            }
+            #itens{
+                display: inline-flex;
+              
+              
+            }
+            .ul-li{
+                margin: 10px;
+                list-style-type: none;
+                text-transform: uppercase;
+                
+                
+            }
+           
         }
     </style>
     <meta charset="UTF-8">
@@ -76,16 +108,16 @@
             <input type="button" value="☰" onclick="openMenu()" id="abrir-menu">
             <ul id="itens">
 
-            <li><a href="#">home</a></li>
-            <li><a href="#">contato</a></li>
-            <li><a href="#">paginas</a></li>
-            <li><a href="#">sobre</a></li>
+            <li class="ul-li"><a href="#">home</a></li>
+            <li class="ul-li"><a href="#">contato</a></li>
+            <li class="ul-li"><a href="#">paginas</a></li>
+            <li class="ul-li"><a href="#">sobre</a></li>
             </ul>
         </menu>
     </header>
     <div id="sub-menu">
-        <h1>um lindo site</h1>
-        <h2>aqui vai uma pequena div, com um conteu, logo a abaixo do menu.</h2>
+        <h1>jogos que estão para lançar em 2024</h1>
+      
     </div>
     <div id="conteudo">
         <h1>aqui vai todo conteudo</h1>
