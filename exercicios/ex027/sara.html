@@ -51,8 +51,9 @@
         }
         main{   background-image: url(litle-game.png);
             background-size: auto;
-            background-size: cover;
-            background-position: right center;
+            background-size: 800px;
+            background-position: center center;
+            background-repeat: no-repeat;
             border-radius: 10px;
             
            
@@ -90,6 +91,20 @@
         }
         article h2{
             font-size: 2.2em;
+        }
+        @media screen and (min-width: 700px){
+            main{
+                background-image: url(litle-game.png);
+                background-size: auto;
+                background-position: center center;
+               
+            }
+            #menu-itens{
+                display: block;
+            }
+            #botao-menu{ display: none;
+
+            }
         }
     </style>
     <meta charset="UTF-8">
