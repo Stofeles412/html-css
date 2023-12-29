@@ -37,8 +37,9 @@
             text-decoration: underline; 
         }
         #botao-menu{
-            width: 40px;
-            background-color: rgba(220, 162, 121, 0.642);
+            width: 30px;
+            border: none;
+            background-color: rgba(177, 171, 167, 0.642);
         }
         #botao-menu:hover{
             background-color: rgb(138, 104, 59);
@@ -119,8 +120,9 @@
      
         <menu>
             <h1>MENU DA SARA</h1>
-            <input type="button" value="⁂"onclick="openMenu()" id="botao-menu">
-    
+          <button>
+            <img src="menu.png" alt="menu" id="botao-menu" onclick="openMenu()">
+          </button>
             <ul id="menu-itens">
                 <li><a href="#">THE SIMS 4</a></li>
                 <li><a href="#">GTA 5</a></li>
@@ -198,11 +200,13 @@
     <script>
         function openMenu(){
             var menu = window.document.getElementById('menu-itens')
-            var abrir = window.document.getElementById('bota-menu')
+            var abrir = window.document.getElementById('botao-menu')
            if (menu.style.display == 'block'){
             menu.style.display = 'none'
+            abrir.src = 'menu.png'
            }else{
             menu.style.display = 'block'
+            abrir.src = 'menu-fechado.png.png'
            }
         }
 

@@ -72,6 +72,7 @@
            
         }
         
+        
             
 
         @media screen and (min-width: 900px){
@@ -101,8 +102,11 @@
     <header>
         <menu>
             <h1>menu</h1>
+            <button>
+                <img src="menu.png" alt="menu-incone" id="abrir-menu" onclick="openMenu()">
+            </button>
 
-            <input type="button" value="☰" onclick="openMenu()" id="abrir-menu">
+          
             <ul id="itens">
 
             <li class="ul-li"><a href="#">home</a></li>
@@ -139,14 +143,16 @@
     </div>
     <script>
         function openMenu(){
-            var abrir = window.document.getElementById('abrir-menu')
+            var icon = window.document.getElementById('abrir-menu')
             var abrir = window.document.getElementById('itens')
              
          if(abrir.style.display == 'block'){
             abrir.style.display = 'none'
+            icon.src = 'menu.png'
             
       }else{
         abrir.style.display = 'block'
+        icon.src = 'menu-fechado.png.png'
       
       }
             
