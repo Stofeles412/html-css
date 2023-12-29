@@ -144,7 +144,8 @@
     
     <script>
        function openMenu(){
-        var abrir = window.document.getElementById('aba-menu')
+        var abrir = window.document.getElementById('aba-menu').src = 'menu.png'
+
         var menu = window.document.getElementById('itens')
         if(menu.style.display == 'block'){
             menu.style.display = 'none'
@@ -154,6 +155,9 @@
         
         }else{
             menu.style.display = 'block'
+            var abrir = window.document.getElementById('aba-menu').src = 'menu-fechado.png.png'
+          
+            
         }
         }
           
